@@ -85,9 +85,9 @@ void user_init_normal(void)
 #elif (FEATURE_TEST_MODE == TEST_CSA2)
 
 	feature_csa2_init_normal();
-
-#else
-
+#elif (FEATURE_TEST_MODE == TEST_MAIN)
+	feature_main_init_normal();
+#else	
 #endif
 }
 
@@ -148,7 +148,8 @@ _attribute_ram_code_ void user_init_deepRetn(void)
 #elif (FEATURE_TEST_MODE == TEST_CSA2)
 
 	feature_csa2_init_deepRetn();
-
+#elif (FEATURE_TEST_MODE == TEST_MAIN)
+	feature_main_init_deepRetn();
 #else
 
 #endif

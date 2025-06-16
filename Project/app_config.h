@@ -70,9 +70,11 @@ extern "C" {
 
 #define	TEST_CSA2										80
 
+#define	TEST_MAIN										81
 
 
-#define FEATURE_TEST_MODE								TEST_POWER_ADV
+
+#define FEATURE_TEST_MODE								TEST_MAIN	//TEST_POWER_ADV
 
 
 

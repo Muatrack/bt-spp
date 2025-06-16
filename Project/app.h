@@ -79,4 +79,7 @@ void feature_2m_coded_phy_conn_mainloop(void);
 void feature_csa2_init_normal(void);
 void feature_csa2_init_deepRetn(void);
 
+void feature_main_init_normal(void);
+void feature_main_init_deepRetn(void);
+
 #endif /* APP_H_ */
